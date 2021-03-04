@@ -1,54 +1,97 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Facundo Lopez</title>
-    <link rel="stylesheet"  href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="icon" href="icon.ico">
-  </head>
-  <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Facundo.</h1>
-    <h2>a programmer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/facundo.png" alt="profile-img" style="width:200px;height:200px;">
-      <h2>Hello.</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet"  href="css/styles.css">
+
+  <title>Facundo's Personal Website</title>
+</head>
+
+<body>
+  <section id="title">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="">Facundo Lopez</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a></a>
+        </li>
+      </ul>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="computer-img" src="images/computer.png" alt="computer-img">
-        <h3>Lorem & Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-      </div>
-      <div class="skill-row">
-        <img class="chilly-img" src="images/chillies.png" alt="chillies-img">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-      </div>
+  </nav>
+  <div class="city-img" style="background-image: url('images/new-york-skyline.jpg');">
+      <h1 class="welcome-text">Hello, World</h1>
+  </div>
+</section>
+<div class="middle-container">
+  <div class="profile">
+    <img class="profile-img" src="images/facundo.png" alt="profile-img" style="width:150px;height:150px;">
+    <h2>I'm Facundo</h2>
+    <p class="intro">A college student and an aspiring software developer, ready to take on any challenges.</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2 class="white-title">My Skills.</h2>
+    <div class="skill-row">
+      <img class="computer-img" src="images/computer.png" alt="computer-img">
+      <h3>Lorem & Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p class:"contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    <div class="skill-row">
+      <img class="chilly-img" src="images/chillies.png" alt="chillies-img">
+      <h3>Lorem Ipsum Dolor</h3>
+      <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
     </div>
   </div>
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p>© 2018 Facundo Lopez.</p>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+    <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+    <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
   </div>
-  </body>
+</div>
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p class="copyright">© 2021 Facundo Lopez.</p>
+</div>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+
+    -->
+</body>
+
 </html>
