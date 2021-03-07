@@ -46,6 +46,18 @@ a:hover {
 #contact-form{
   margin:70px auto;
 }
+
+#contacts{
+  margin-top:55px;
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 15vw;
+    height: auto;
+    object-fit: cover;
+}
+
 .header {
        color: #36A0FF;
        font-size: 27px;

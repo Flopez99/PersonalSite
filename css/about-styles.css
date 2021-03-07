@@ -16,8 +16,9 @@ h2{
 }
 
 hr{
-  border: none;
+  border: dotted black 6px;
   border-bottom: none;
+  background-color: white;
   width:4%;
   margin:50px auto;
 }
@@ -38,9 +39,32 @@ a:hover {
   color: #FFFAFA;
 }
 
+.carousel-item{
+  height:500px;
+
+}
+
+.robotics-img{
+  width: 200px;
+  height: 200px;
+}
 .about-intro{
   padding:25px 0;
 
+}
+.skills{
+  padding:35px 0;
+}
+.computer-img{
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.chilly-img{
+  width:25%;
+  float:right;
+  margin-left: 30px;
 }
 
 .bottom-container{
@@ -60,4 +84,9 @@ a:hover {
 }
 .nav-item{
   padding: 0 18px;
+}
+.skill-row{
+  width:50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
 }
