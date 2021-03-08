@@ -16,10 +16,11 @@ h2{
 }
 
 hr{
-  border: none;
+  border: dotted black 6px;
   border-bottom: none;
   width:4%;
-  margin:50px auto;
+  background-color: #fd5e53;
+  margin:70px auto;
 }
 
 p{
@@ -92,6 +93,7 @@ a:hover {
 }
 .profile-img{
   margin-bottom: 15px;
+  width:50%;
 }
 .city-img{
   position: relative;
@@ -107,11 +109,20 @@ a:hover {
 .middle-container{
   background-color:#fd5e53;
 }
-
+.col-md-4{
+  padding-bottom: 30px
+}
 .container-fluid{
   padding: 3% 15%;
 }
 
+.project-divider{
+  border: dotted black 6px;
+  border-bottom: none;
+  width:4%;
+  background-color: white;
+  margin:70px auto;
+}
 .welcome-text{
   color:white;
   top:100px;

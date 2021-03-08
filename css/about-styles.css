@@ -20,7 +20,7 @@ hr{
   border-bottom: none;
   background-color: white;
   width:4%;
-  margin:50px auto;
+  margin:70px auto;
 }
 
 p{
@@ -39,9 +39,79 @@ a:hover {
   color: #FFFAFA;
 }
 
+#resume{
+  margin-bottom: 100px;
+}
+#carouselExampleCaptions{
+  padding:100px;
+}
+.carousel-img{
+  width:50%;
+  padding-bottom: 95px;
+}
+.row{
+  margin: 0;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  cellspacing:100px;
+}
+.experienceHeaderDiv {
+  display: block;
+  position: relative;
+  padding: 15px;
+}
+
+.experienceHeaderDiv p {
+  font-size: 32px;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+.experienceDiv {
+  display: block;
+  position: relative;
+  align-content: left;
+}
+
+.experienceListONE {
+  margin: 50px auto;
+  margin-bottom: 60px;
+}
+
+.experienceListONE .osList {
+  margin-left: 325px;
+}
+
+.experienceListTWO {
+  margin: 50px auto;
+  margin-bottom: 60px;
+
+}
+
+.experienceListTWO .fmList {
+  margin-left: 325px;
+}
+
+.experienceDiv ul {
+  display:inline-table;
+  list-style-type: circle;
+  font-size: 24px;
+}
+
+.experienceDiv ul p {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.listItem {
+  padding-top: 29px;
+}
+
 .carousel-item{
   height:500px;
-
 }
 
 .robotics-img{
@@ -52,9 +122,7 @@ a:hover {
   padding:25px 0;
 
 }
-.skills{
-  padding:35px 0;
-}
+
 .computer-img{
   width: 20%;
   float: left;
